@@ -1,3 +1,3 @@
 CompileFlags:
-  Add: [-mlong-calls, -Wno-unknown-type-name]
+  Add: [-mlong-calls, -Wno-unknown-type-name, --target=rv32imc_ziscr_zifencei]
   Remove: [-fno-tree-switch-conversion, -mtext-section-literals, -mlongcalls, -fstrict-volatile-bitfields, -fno-shrink-wrap]
